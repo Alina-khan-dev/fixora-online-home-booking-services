@@ -172,10 +172,11 @@ gsap.to("#nav", {
   scrollTrigger:{
     trigger: "#nav",
     scroller: "#main",
-    markers: true,
+    // markers: true,
     start: "top -10%",
     end: "bottom -11%",
     scrub: 2
   }
 });
+
 // end navbar function
